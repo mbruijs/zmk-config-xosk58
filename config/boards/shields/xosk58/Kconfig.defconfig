@@ -1,0 +1,6 @@
+if SHIELD_XOSK58
+
+config ZMK_KEYBOARD_NAME
+    default "xosk58"
+
+endif

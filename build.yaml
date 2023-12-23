@@ -19,6 +19,6 @@
 ---
 include:
   - board: nrf52840dk_nrf52840
-    shield: lily58_left
+    shield: xosk58_left
   - board: nrf52840dk_nrf52840
-    shield: lily58_right
+    shield: xosk58_right
