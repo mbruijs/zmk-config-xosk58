@@ -1,4 +1,4 @@
-#include "xosk58.dtsi" // Notice that the main dtsi files are included in the overlay.
+#include "nordic/nrf52840_qiaa.dtsi" // Notice that the main dtsi files are included in the overlay.
 
 &default_transform { // The matrix transform for this board is 6 columns over because the left half is 6 columns wide according to the matrix.
     col-offset = <6>;
