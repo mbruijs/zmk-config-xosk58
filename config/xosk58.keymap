@@ -35,11 +35,11 @@
 
         MediaLayer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                      &trans            &trans             &trans           &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                      &trans            &trans             &trans           &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                      &kp C_PREV        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans            &kp C_BRI_DEC      &kp C_BRI_INC    &trans      &trans  &trans
+                        &trans  &trans  &trans  &trans  &kp C_STOP  &kp C_PLAY_PAUSE  &kp C_MUTE         &trans
             >;
 
             label = "Media";
