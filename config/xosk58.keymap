@@ -62,7 +62,7 @@
 &trans  &trans  &trans                &trans                &trans                &trans                          &trans  &trans        &trans        &trans  &trans  &trans
 &trans  &trans  &kp LG(LS(N7))        &kp LG(LS(N8))        &kp LG(LS(N9))        &kp LG(LS(N0))                  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &trans  &trans  &trans
 &trans  &trans  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))        &kp LG(LS(NUMBER_6))  &trans                          &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans  &trans  &trans
-&trans  &trans  &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &trans          &trans  &trans  &trans  &kp LBKT      &kp RBKT      &trans  &trans  &trans
+&trans  &mo 7   &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &trans          &trans  &trans  &trans  &kp LBKT      &kp RBKT      &trans  &trans  &trans
                                       &trans                &trans                &trans          &trans  &trans  &trans  &trans        &trans
             >;
 
@@ -103,6 +103,18 @@
             >;
 
             label = "Function";
+        };
+
+        BluetoothPowerLayer {
+            bindings = <
+&trans  &trans  &trans        &trans        &trans        &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans        &ext_power EP_TOG                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans        &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans        &trans        &trans             &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "BluetoothPower";
         };
 
         LowerLayer {
