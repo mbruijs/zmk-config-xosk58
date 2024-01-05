@@ -35,11 +35,11 @@
 
         NavigationLayer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                   &trans          &trans          &trans        &trans           &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans                   &kp LC(Y)       &kp LC(P)       &kp LC(C)     &kp LC(X)        &kp LC(Z)   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPS    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp INSERT  &trans
-                        &trans  &trans  &trans  &trans  &kp RET  &kp BSPC        &kp DEL         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                   &trans          &trans          &trans        &trans           &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                   &kp K_COPY      &kp LC(P)       &kp LC(C)     &kp LC(X)        &kp K_PASTE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPS     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp INSERT   &trans
+                        &trans  &trans  &trans  &trans          &kp RET          &kp BSPC        &kp DEL         &trans
             >;
 
             label = "Navigation";
