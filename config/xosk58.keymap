@@ -16,7 +16,7 @@
 
 / {
     keymap {
-        compatible = "zmk,keymap";
+        compatible = "zmk,keymap,behavior_soft_off";
 
         HomeLayer {
             // ------------------------------------------------------------------------------------------------------------
