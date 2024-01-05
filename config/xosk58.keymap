@@ -72,11 +72,11 @@
 
         SymbolLayer {
             bindings = <
-&trans  &trans  &trans        &trans         &trans         &trans                        &trans  &trans        &trans         &trans         &trans        &trans
-&trans  &trans  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)                  &trans  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)  &trans
-&trans  &trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(LBRC)                  &trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(LBRC)  &trans
-&trans  &trans  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(RBRC)  &trans  &trans  &trans  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(RBRC)  &trans
-                              &trans         &trans         &trans        &trans  &trans  &trans  &trans        &trans
+&trans  &trans  &trans        &trans         &trans         &trans                        &trans           &trans        &trans         &trans         &trans        &trans
+&trans  &trans  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)                  &trans           &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)  &trans
+&trans  &trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(LBRC)                  &kp LEFT_BRACE   &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &trans        &trans
+&trans  &mo 7   &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(RBRC)  &trans  &trans  &kp RIGHT_BRACE  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &mo 7         &trans
+                              &trans         &trans         &trans        &trans  &trans  &trans           &trans        &trans
             >;
 
             label = "Symbol";
