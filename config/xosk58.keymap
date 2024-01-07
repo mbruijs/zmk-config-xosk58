@@ -180,11 +180,11 @@
 
         Colemak32Layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none                &none           &none           &none               &none                       &none   &none               &none               &none               &none           &none
+&none  &trans               &trans          &kp F           &kp P               &kp B                       &kp J   &kp L               &kp U               &kp Y               &kp SEMI        &none
+&none  &mt LEFT_CONTROL A   &mt LEFT_GUI R  &mt LEFT_ALT S  &mt LEFT_SHIFT T    &trans                      &kp M   &mt LEFT_SHIFT N    &mt RIGHT_ALT E     &mt RIGHT_GUI I     &mt LCTRL O     &none
+&none  &trans               &trans          &trans          &kp D               &kp V   &none  &none        &kp K   &kp H               &trans              &trans              &trans          &none
+                                            &none           &trans              &trans  &trans  &trans      &trans  &trans              &none
             >;
 
             label = "Colemak32";
