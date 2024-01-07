@@ -48,11 +48,11 @@
 
         NavigationLayer {
             bindings = <
-&trans    &kp LS(EXCL)  &kp LS(AT)        &kp LS(POUND)     &kp LS(DLLR)      &kp LS(PRCNT)                                   &kp LS(CARET)   &kp LS(AMPS)    &kp LS(STAR)  &kp LS(LPAR)     &kp LS(RPAR)  &trans
-&trans    &trans        &kp LG(N7)        &kp LG(N8)        &kp LG(N9)        &kp LG(N0)                                      &kp K_COPY      &kp K_CUT       &kp K_UNDO    &kp K_REDO       &kp K_PASTE   &kp LS(PIPE)
-&trans    &trans        &kp LG(NUMBER_4)  &kp LG(N5)        &kp LG(NUMBER_6)  &trans                                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPS      &kp LS(RET)
-&kp CAPS  &trans        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp INSERT    &trans
-                                          &trans            &trans            &trans         &trans          &trans           &trans          &trans          &trans
+&trans    &kp LS(EXCL)   &kp LS(AT)        &kp LS(POUND)     &kp LS(DLLR)      &kp LS(PRCNT)                                   &kp LS(CARET)   &kp LS(AMPS)    &kp LS(STAR)  &kp LS(LPAR)     &kp LS(RPAR)  &trans
+&trans    &kp LG(LS(Q))  &kp LG(N7)        &kp LG(N8)        &kp LG(N9)        &kp LG(N0)                                      &kp K_COPY      &kp K_CUT       &kp K_UNDO    &kp K_REDO       &kp K_PASTE   &kp LS(PIPE)
+&trans    &trans         &kp LG(NUMBER_4)  &kp LG(N5)        &kp LG(NUMBER_6)  &trans                                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPS      &kp LS(RET)
+&kp CAPS  &kp LSHFT      &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp INSERT    &trans
+                                           &trans            &trans            &trans         &trans          &trans           &trans          &trans          &trans
             >;
 
             label = "Navigation";
@@ -60,11 +60,11 @@
 
         MouseLayer {
             bindings = <
-&trans  &kp F1         &kp F2                &kp F3                &kp F4                &kp F5                          &kp F6  &kp F7        &kt F8        &kp F9  &kp F10  &trans
-&trans  &kp LG(LS(Q))  &kp LG(LS(N7))        &kp LG(LS(N8))        &kp LG(LS(N9))        &kp LG(LS(N0))                  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &trans  &trans   &trans
-&trans  &tog 5         &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))        &kp LG(LS(NUMBER_6))  &trans                          &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans  &trans   &trans
-&trans  &mo 7          &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &trans          &trans  &trans  &trans  &kp LBKT      &kp RBKT      &trans  &mo 7    &trans
-                                             &trans                &trans                &trans          &trans  &trans  &trans  &trans        &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &kp F6  &kp F7        &kt F8        &kp F9  &kp F10  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &trans  &trans   &trans
+&trans  &tog 5  &trans  &trans  &trans  &trans                  &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans  &trans   &trans
+&trans  &mo 7   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LBKT      &kp RBKT      &trans  &mo 7    &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans
             >;
 
             label = "Mouse";
