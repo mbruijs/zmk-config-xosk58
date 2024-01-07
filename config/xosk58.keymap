@@ -14,7 +14,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        HomeLayer {
+        Qwerty58Layer {
             // ------------------------------------------------------------------------------------------------------------
             // |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   `   |
             // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   -   |
@@ -31,7 +31,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-            label = "Home";
+            label = "Qwerty58";
         };
 
         MediaLayer {
@@ -154,7 +154,7 @@
             label = "UnlockConfirm";
         };
 
-        ColemakLayer {
+        Colemak58Layer {
             bindings = <
 &trans  &trans              &trans          &trans          &trans            &trans                  &trans  &trans            &trans           &trans           &trans       &trans
 &trans  &trans              &trans          &kp F           &kp P             &kp B                   &kp J   &kp L             &kp U            &kp Y            &kp SEMI     &trans
@@ -163,7 +163,19 @@
                                             &trans          &trans            &trans  &trans  &trans  &trans  &trans            &trans
             >;
 
-            label = "Colemak";
+            label = "Colemak58";
+        };
+
+        Qwerty32Layer {
+            bindings = <
+&none  &none   &none   &none   &none   &none                   &none   &none   &none   &none   &none   &none
+&none  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &trans  &trans  &trans  &none
+                       &none   &trans  &trans  &trans  &trans  &trans  &trans  &none
+            >;
+
+            label = "Qwerty32";
         };
     };
 };
