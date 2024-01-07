@@ -62,7 +62,7 @@
             bindings = <
 &trans  &kp F1  &kp F2                &kp F3                &kp F4                &kp F5                          &kp F6  &kp F7        &kt F8        &kp F9  &kp F10  &trans
 &trans  &trans  &kp LG(LS(N7))        &kp LG(LS(N8))        &kp LG(LS(N9))        &kp LG(LS(N0))                  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &trans  &trans   &trans
-&trans  &trans  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))        &kp LG(LS(NUMBER_6))  &trans                          &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans  &trans   &trans
+&trans  &tog 5  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))        &kp LG(LS(NUMBER_6))  &trans                          &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans  &trans   &trans
 &trans  &mo 7   &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &trans          &trans  &trans  &trans  &kp LBKT      &kp RBKT      &trans  &mo 7    &trans
                                       &trans                &trans                &trans          &trans  &trans  &trans  &trans        &trans
             >;
