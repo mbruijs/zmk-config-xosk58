@@ -156,11 +156,11 @@
 
         rsthanoi58Layer {
             bindings = <
-&trans  &trans              &trans          &trans          &trans            &trans                         &trans          &trans            &trans           &trans           &trans       &trans
-&trans  &kp Z               &kp C           &kp P           &kp M             &kp SEMICOLON                  &kp APOSTROPHE  &trans            &kp L            &kp Y            &kp Q        &trans
-&trans  &mt LEFT_CONTROL R  &mt LEFT_GUI S  &mt LEFT_ALT T  &mt LEFT_SHIFT H  &kp K                          &kp V           &mt LEFT_SHIFT A  &mt RIGHT_ALT N  &mt RIGHT_GUI O  &mt LCTRL I  &trans
-&trans  &kp W               &trans          &kp F           &kp D             &trans         &trans  &trans  &kp J           &kp G             &trans           &trans           &trans       &trans
-                                            &trans          &trans            &lt 2 E        &trans  &trans  &trans          &trans            &trans
+&trans  &trans              &trans          &trans          &trans            &trans                            &trans         &trans            &trans           &trans           &trans       &trans
+&trans  &kp Z               &kp C           &kp P           &kp M             &kp SINGLE_QUOTE                  &kp SEMICOLON  &trans            &kp L            &kp Y            &kp Q        &trans
+&trans  &mt LEFT_CONTROL R  &mt LEFT_GUI S  &mt LEFT_ALT T  &mt LEFT_SHIFT H  &kp K                             &kp V          &mt LEFT_SHIFT A  &mt RIGHT_ALT N  &mt RIGHT_GUI O  &mt LCTRL I  &trans
+&trans  &kp W               &trans          &kp F           &kp D             &trans            &trans  &trans  &kp J          &kp G             &trans           &trans           &trans       &trans
+                                            &trans          &trans            &lt 2 E           &trans  &trans  &trans         &trans            &trans
             >;
 
             label = "rsthanoi58";
@@ -180,12 +180,12 @@
 
         rsthanoi32Layer {
             bindings = <
-&none  &none              &none          &none          &none            &none                         &none          &none            &none           &none           &none       &none
-&none  &kp Z               &kp C           &kp P           &kp M             &kp SEMICOLON                  &kp APOSTROPHE  &trans            &kp L            &kp Y            &kp Q        &none
-&none  &mt LEFT_CONTROL R  &mt LEFT_GUI S  &mt LEFT_ALT T  &mt LEFT_SHIFT H  &kp K                          &kp V           &mt LEFT_SHIFT A  &mt RIGHT_ALT N  &mt RIGHT_GUI O  &mt LCTRL I  &none
-&none  &kp W               &trans          &kp F           &kp D             &trans         &trans  &trans  &kp J           &kp G             &trans           &trans           &trans       &none
-                                            &none          &trans            &lt 2 E        &trans  &trans  &trans          &trans            &none
-             >;
+&none  &none               &none           &none           &none             &none                           &none          &none             &none            &none            &none        &none
+&none  &kp Z               &kp C           &kp P           &kp M             &kp APOSTROPHE                  &kp SEMICOLON  &trans            &kp L            &kp Y            &kp Q        &none
+&none  &mt LEFT_CONTROL R  &mt LEFT_GUI S  &mt LEFT_ALT T  &mt LEFT_SHIFT H  &kp K                           &kp V          &mt LEFT_SHIFT A  &mt RIGHT_ALT N  &mt RIGHT_GUI O  &mt LCTRL I  &none
+&none  &kp W               &trans          &kp F           &kp D             &trans          &trans  &trans  &kp J          &kp G             &trans           &trans           &trans       &none
+                                           &none           &trans            &lt 2 E         &trans  &trans  &trans         &trans            &none
+            >;
 
             label = "rsthanoi32";
         };
