@@ -60,11 +60,11 @@
 
         NavigationLayer {
             bindings = <
-&trans    &kp LS(EXCL)   &kp LS(AT)        &kp LS(POUND)     &kp LS(DLLR)      &kp LS(PRCNT)                                   &kp LS(CARET)   &kp LS(AMPS)    &kp LS(STAR)  &kp LS(LPAR)     &kp LS(RPAR)  &trans
-&trans    &kp LG(LS(Q))  &kp LG(N7)        &kp LG(N8)        &kp LG(N9)        &kp LG(N0)                                      &kp K_COPY      &kp K_CUT       &kp K_UNDO    &kp K_REDO       &kp K_PASTE   &kp LS(PIPE)
-&trans    &trans         &kp LG(NUMBER_4)  &kp LG(N5)        &kp LG(NUMBER_6)  &trans                                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPS      &kp LS(RET)
-&kp CAPS  &kp LSHFT      &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp INSERT    &trans
-                                           &trans            &trans            &trans         &trans          &trans           &trans          &trans          &trans
+&trans    &kp LS(EXCL)    &kp LS(AT)        &kp LS(POUND)     &kp LS(DLLR)      &kp LS(PRCNT)                                   &kp LS(CARET)   &kp LS(AMPS)    &kp LS(STAR)  &kp LS(LPAR)     &kp LS(RPAR)       &trans
+&trans    &kp LG(LS(Q))   &kp LG(N7)        &kp LG(N8)        &kp LG(N9)        &kp LG(N0)                                      &kp K_COPY      &kp K_CUT       &kp K_UNDO    &kp K_REDO       &kp K_PASTE        &kp LS(PIPE)
+&trans    &kp LEFT_SHIFT  &kp LG(NUMBER_4)  &kp LG(N5)        &kp LG(NUMBER_6)  &trans                                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &mt CAPSLOCK CAPS  &kp LS(RET)
+&kp CAPS  &mo 7           &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp INSERT         &trans
+                                            &trans            &trans            &trans         &trans          &trans           &trans          &trans          &trans
             >;
 
             label = "Navigation";
@@ -160,7 +160,7 @@
 &trans  &kp Z               &kp C           &kp P           &kp M             &kp SINGLE_QUOTE                  &kp SEMICOLON  &trans            &kp L            &kp Y            &kp Q        &trans
 &trans  &mt LEFT_CONTROL R  &mt LEFT_GUI S  &mt LEFT_ALT T  &mt LEFT_SHIFT H  &kp K                             &kp V          &mt LEFT_SHIFT A  &mt RIGHT_ALT N  &mt RIGHT_GUI O  &mt LCTRL I  &trans
 &trans  &kp W               &trans          &kp F           &kp D             &trans            &trans  &trans  &kp J          &kp G             &trans           &trans           &trans       &trans
-                                            &trans          &trans            &lt 3 E           &trans  &trans  &trans         &trans            &trans
+                                            &trans          &trans            &lt 2 E           &trans  &trans  &trans         &trans            &trans
             >;
 
             label = "rsthanoi58";
@@ -184,7 +184,7 @@
 &none  &kp Z               &kp C           &kp P           &kp M             &kp APOSTROPHE                  &kp SEMICOLON  &trans            &kp L            &kp Y            &kp Q        &none
 &none  &mt LEFT_CONTROL R  &mt LEFT_GUI S  &mt LEFT_ALT T  &mt LEFT_SHIFT H  &kp K                           &kp V          &mt LEFT_SHIFT A  &mt RIGHT_ALT N  &mt RIGHT_GUI O  &mt LCTRL I  &none
 &none  &kp W               &trans          &kp F           &kp D             &trans          &trans  &trans  &kp J          &kp G             &trans           &trans           &trans       &none
-                                           &none           &trans            &lt 3 E         &trans  &trans  &trans         &trans            &none
+                                           &none           &trans            &lt 2 E         &trans  &trans  &trans         &trans            &none
             >;
 
             label = "rsthanoi32";
