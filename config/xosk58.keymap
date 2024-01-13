@@ -86,7 +86,7 @@
             bindings = <
 &trans  &trans      &trans        &trans        &trans        &trans                      &trans      &trans        &trans        &trans        &trans      &trans
 &trans  &sys_reset  &bootloader   &out OUT_BLE  &out OUT_USB  &to 7                       &to 7       &out OUT_USB  &out OUT_BLE  &bootloader   &sys_reset  &trans
-&trans  &trans      &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 4  &trans                      &trans      &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 4  &trans      &trans
+&trans  &tog 11     &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 4  &tog 12                     &tog 12     &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 4  &tog 11     &trans
 &trans  &trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans      &trans
                                   &trans        &trans        &trans      &trans  &trans  &trans      &trans        &trans
             >;
@@ -131,7 +131,7 @@
         UnlockConfirmLayer {
             bindings = <
 &none  &none   &none   &none   &none   &none                  &none  &none   &none   &none   &none   &none
-&none  &to 13  &to 12  &to 11  &to 10  &to 0                  &to 0  &to 10  &to 11  &to 12  &to 13  &none
+&none  &trans  &trans  &trans  &to 10  &to 0                  &to 0  &to 10  &trans  &trans  &trans  &none
 &none  &none   &none   &none   &none   &none                  &none  &none   &none   &none   &none   &none
 &none  &trans  &none   &none   &none   &none  &none   &none   &none  &none   &none   &none   &trans  &none
                        &none   &none   &none  &trans  &trans  &none  &none   &none
