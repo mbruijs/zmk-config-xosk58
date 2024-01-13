@@ -142,11 +142,11 @@
 
         rsthanoi58Layer {
             bindings = <
-&trans  &trans              &trans          &trans          &trans            &trans                            &trans         &trans            &trans           &trans           &trans       &trans
-&trans  &kp Z               &kp C           &kp P           &kp M             &kp SINGLE_QUOTE                  &kp SEMICOLON  &kp U             &kp L            &kp Y            &kp Q        &trans
-&trans  &mt LEFT_CONTROL R  &mt LEFT_GUI S  &mt LEFT_ALT T  &mt LEFT_SHIFT H  &kp K                             &kp V          &mt LEFT_SHIFT A  &mt RIGHT_ALT N  &mt RIGHT_GUI O  &mt LCTRL I  &trans
-&trans  &kp W               &kp X           &kp F           &kp D             &kp B             &trans  &trans  &kp J          &kp G             &kp COMMA        &kp PERIOD       &kp SLASH    &trans
-                                            &trans          &trans            &lt 1 E           &trans  &trans  &trans         &trans            &trans
+&trans  &trans              &trans          &trans          &trans            &trans                                          &trans         &trans            &trans           &trans           &trans       &trans
+&trans  &kp Z               &kp C           &kp P           &kp M             &kp SINGLE_QUOTE                                &kp SEMICOLON  &kp U             &kp L            &kp Y            &kp Q        &trans
+&trans  &mt LEFT_CONTROL R  &mt LEFT_GUI S  &mt LEFT_ALT T  &mt LEFT_SHIFT H  &kp K                                           &kp V          &mt LEFT_SHIFT A  &mt RIGHT_ALT N  &mt RIGHT_GUI O  &mt LCTRL I  &trans
+&trans  &kp W               &kp X           &kp F           &kp D             &kp B             &trans       &trans           &kp J          &kp G             &kp COMMA        &kp PERIOD       &kp SLASH    &trans
+                                            &trans          &kp LEFT_SHIFT    &lt 1 E           &lt 2 ENTER  &lt 3 BACKSPACE  &lt 4 SPACE    &kp DEL           &trans
             >;
 
             label = "rsthanoi58";
