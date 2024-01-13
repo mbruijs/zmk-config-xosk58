@@ -23,11 +23,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC    &kp N1       &kp N2          &kp N3          &kp N4            &kp N5                                      &kp N6       &kp N7             &kp N8           &kp N9           &kp N0               &kp BACKSPACE
-&kp TAB    &kp Q        &kp W           &kp E           &kp R             &kp T                                       &kp Y        &kp U              &kp I            &kp O            &kp P                &kp BACKSLASH
-&kp LCTRL  &mt LCTRL A  &mt LEFT_GUI S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G                                       &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt RIGHT_GUI L  &mt RCTRL SEMICOLON  &kp ENTER
-&kp LSHFT  &kp Z        &kp X           &kp C           &kp V             &kp B         &kp LBKT     &kp RBKT         &kp N        &kp M              &kp COMMA        &kp DOT          &kp FSLH             &kp RIGHT_SHIFT
-                                        &kp LALT        &kp LEFT_SHIFT    &lt 1 ESCAPE  &lt 2 ENTER  &lt 3 BACKSPACE  &lt 4 SPACE  &kp DEL            &kp RALT
+&kp ESC    &kp N1       &kp N2          &kp N3          &kp N4            &kp N5                                &kp N6       &kp N7             &kp N8           &kp N9           &kp N0               &kp BACKSPACE
+&kp TAB    &kp Q        &kp W           &kp E           &kp R             &kp T                                 &kp Y        &kp U              &kp I            &kp O            &kp P                &kp BACKSLASH
+&kp LCTRL  &mt LCTRL A  &mt LEFT_GUI S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G                                 &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt RIGHT_GUI L  &mt RCTRL SEMICOLON  &kp ENTER
+&kp LSHFT  &kp Z        &kp X           &kp C           &kp V             &kp B   &kp LBKT     &kp RBKT         &kp N        &kp M              &kp COMMA        &kp DOT          &kp FSLH             &kp RIGHT_SHIFT
+                                        &kp LALT        &kp LEFT_SHIFT    &mo 1   &lt 2 ENTER  &lt 3 BACKSPACE  &lt 4 SPACE  &kp DEL            &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -72,11 +72,11 @@
 
         FunctionLayer {
             bindings = <
-&trans  &kp F1   &kp F2  &kp F3  &kp F4  &kp F5                           &kp F6           &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN                  &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F12  &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp PAUSE_BREAK                  &kp PAUSE_BREAK  &kp F4  &kp F5  &kp F6  &kp F11  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &trans           &trans  &trans  &trans           &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                         &trans  &trans  &trans           &trans  &trans  &trans           &trans  &trans
+&trans  &kp F1                &kp F2           &kp F3           &kp F4             &kp F5                   &kp F6   &kp F7              &kp F8            &kp F9            &kp F10                &trans
+&trans  &kp ESC               &kp F7           &kp F8           &kp F9             &kp F12                  &kp F12  &kp F7              &kp F8            &kp F9            &kp ESC                &trans
+&trans  &mt LEFT_CONTROL TAB  &mt LEFT_GUI F4  &mt LEFT_ALT F5  &mt LEFT_SHIFT F6  &kp F11                  &kp F11  &mt RIGHT_SHIFT F4  &mt RIGHT_ALT F5  &mt RIGHT_GUI F6  &mt RIGHT_CONTROL TAB  &trans
+&trans  &kp CAPSLOCK          &kp F1           &kp F2           &kp F3             &kp F10  &trans  &trans  &kp F10  &kp F1              &kp F2            &kp F3            &kp CAPSLOCK           &trans
+                                               &trans           &trans             &trans   &trans  &trans  &trans   &trans              &trans
             >;
 
             label = "Function";
