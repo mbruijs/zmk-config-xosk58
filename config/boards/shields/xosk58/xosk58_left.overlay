@@ -1,5 +1,5 @@
 // #include "nordic/nrf52840_qiaa.dtsi" // Notice that the main dtsi files are included in the overlay.
-#include "xosk58.overlay"
+#include "xosk58.dtsi"
 &kscan0 {
     col-gpios
         = <&gpio1 2 GPIO_ACTIVE_HIGH> // col0 in the schematic
