@@ -1,0 +1,11 @@
+file_format: "1"
+id: xosk58
+name: Xosk58
+type: shield
+url: https://boardsource.xyz/store/5f2e7e4a2902de7151494f92
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - xosk58_left
+  - xosk58_right
