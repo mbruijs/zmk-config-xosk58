@@ -3,4 +3,15 @@ if SHIELD_XOSK58
 config ZMK_KEYBOARD_NAME
     default "xosk58"
 
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+
+if SHIELD_XOSK58_LEFT || SHIELD_XOSK58_RIGHT
+
+config ZMK_SPLIT
+    default y
+
 endif
