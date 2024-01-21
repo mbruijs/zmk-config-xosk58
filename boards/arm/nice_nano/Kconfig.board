@@ -11,7 +11,6 @@ config BOARD_NICE_NANO_V2
     bool "nice!nano v2"
     depends on SOC_NRF52840_QIAA
 
-
 config BOARD_NICE_NANO_V3
     bool "nice!nano v3"
     depends on SOC_NRF52840_QIAA
