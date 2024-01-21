@@ -14,7 +14,4 @@ if SHIELD_XOSK58_LEFT || SHIELD_XOSK58_RIGHT
 config ZMK_SPLIT
     default y
 
-config ZMK_BLE
-    default y
-    
 endif
