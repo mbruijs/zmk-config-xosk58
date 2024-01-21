@@ -1,5 +1,5 @@
-identifier: nice_nano_v2
-name: nice!nano v2
+identifier: nice_nano_v3
+name: nice!nano v3
 type: mcu
 arch: arm
 toolchain:
@@ -7,7 +7,6 @@ toolchain:
   - gnuarmemb
   - xtools
 supported:
-  - adc
   - usb_device
   - ble
   - ieee802154

@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano_v3
     shield: reviung34
-  - board: nice_nano_v2
+  - board: nice_nano_v3
     shield: settings_reset
