@@ -10,6 +10,8 @@
 
 &mt { flavor = "tap-preferred"; };
 
+&lt { flavor = "hold-preferred"; };
+
 / {
     macros {
         windows_hold: windows_hold {
