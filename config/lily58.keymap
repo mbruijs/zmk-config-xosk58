@@ -21,11 +21,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC    &kp N1              &kp N2            &kp N3          &kp N4    &kp N5                              &kp N6     &kp N7      &kp N8           &kp N9             &kp N0                       &kp BACKSPACE
-&kp TAB    &kp Q               &kp W             &kp E           &kp R     &kp T                               &kp Y      &kp U       &kp I            &kp O              &kp P                        &kp BACKSLASH
-&kp LCTRL  &mt LEFT_CONTROL A  &mt LEFT_SHIFT S  &mt LEFT_GUI D  &kp F     &kp G                               &kp H      &kp J       &mt RIGHT_GUI J  &mt RIGHT_SHIFT L  &mt RIGHT_CONTROL SEMICOLON  &kp ENTER
-&kp LSHFT  &kp Z               &kp X             &kp C           &kp V     &kp B   &kp LBKT     &kp RBKT       &kp N      &kp M       &kp COMMA        &kp DOT            &kp FSLH                     &kp RSHFT
-                                                 &kp LALT        &kp LGUI  &mo 1   &kp ENTER    &kp BACKSPACE  &kp SPACE  &kp DELETE  &mo 2
+&kp ESC    &kp N1   &kp N2            &kp N3    &kp N4          &kp N5                              &kp N6     &kp N7           &kp N8          &kp N9             &kp N0                       &kp BACKSPACE
+&kp TAB    &kp Q    &kp W             &kp E     &kp R           &kp T                               &kp Y      &kp U            &kp I           &kp O              &kp P                        &kp SINGLE_QUOTE
+&kp LCTRL  &lt 4 A  &mt LEFT_SHIFT S  &lt 3 D   &mt LEFT_ALT F  &kp G                               &kp H      &mt RIGHT_ALT J  &mt LEFT_GUI K  &mt RIGHT_SHIFT L  &mt RIGHT_CONTROL SEMICOLON  &kp ENTER
+&kp LSHFT  &kp Z    &kp X             &kp C     &kp V           &kp B   &kp LBKT     &kp RBKT       &kp N      &kp M            &kp COMMA       &kp DOT            &kp FSLH                     &kp RSHFT
+                                      &kp LALT  &kp LGUI        &mo 1   &kp ENTER    &kp BACKSPACE  &kp SPACE  &kp DELETE       &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -40,11 +40,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bootloader  &sys_reset                    &trans     &trans     &kp EQUAL        &kp MINUS  &kp PLUS  &trans
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5       &kp F6                        &kp F7     &kp F8     &kp F9           &kp F10    &kp F11   &kp F12
-&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR   &kp PRCNT                     &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp TILDE
-&trans      &trans        &trans        &trans        &trans       &trans      &trans    &trans  &trans     &kp MINUS  &kp KP_PLUS      &kp LBRC   &kp RBRC  &kp PIPE
-                                        &trans        &trans       &trans      &trans    &trans  &trans     &trans     &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bootloader  &sys_reset                    &trans  &kp TILDE  &kp EQUAL  &kp MINUS  &kp PLUS  &trans
+&trans      &trans        &trans        &trans        &trans       &trans                        &trans  &trans     &trans     &trans     &trans    &kp BACKSLASH
+&trans      &trans        &trans        &trans        &trans       &trans                        &trans  &trans     &trans     &trans     &trans    &trans
+&trans      &trans        &trans        &trans        &trans       &trans      &trans    &trans  &trans  &trans     &trans     &trans     &trans    &trans
+                                        &trans        &trans       &trans      &trans    &trans  &trans  &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -67,6 +67,26 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans                  &trans                &trans     &trans              &trans                       &trans        &trans        &trans      &trans         &trans  &trans
+&trans  &trans                  &trans                &kp LG(E)  &trans              &kp LG(T)                    &trans        &trans        &kp LG(I)   &trans         &trans  &trans
+&trans  &mt LEFT_CONTROL LG(A)  &mt LEFT_SHIFT LG(S)  &trans     &mt LEFT_ALT LG(F)  &trans                       &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans  &trans
+&trans  &trans                  &trans                &trans     &kp LG(V)           &trans     &trans    &trans  &trans        &kp LG(M)     &trans      &trans         &trans  &trans
+                                                      &trans     &trans              &trans     &trans    &trans  &trans        &trans        &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans        &trans        &trans      &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans        &trans        &trans      &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(UP)  &kp LC(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME      &kp PG_UP     &kp PG_DN   &kp END        &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans
+            >;
         };
     };
 };
