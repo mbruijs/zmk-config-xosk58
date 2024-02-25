@@ -72,11 +72,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans     &kp F2     &trans    &kp F4    &trans                    &sys_reset  &bootloader  &kp F8     &trans           &trans  &trans
-&trans  &kp TAB    &trans     &trans    &trans    &trans                    &trans      &trans       &trans     &trans           &trans  &trans
-&trans  &kp RCTRL  &kp RSHFT  &kp LGUI  &kp LALT  &trans                    &kp LEFT    &kp UP       &kp DOWN   &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans     &trans     &trans    &trans    &trans  &trans    &trans  &kp HOME    &kp PG_UP    &kp PG_DN  &kp END          &trans  &trans
-                              &trans    &trans    &trans  &trans    &trans  &trans      &trans       &trans
+&trans  &trans        &kp F2     &trans    &kp F4   &trans                    &sys_reset  &bootloader  &kp F8     &trans           &trans  &trans
+&trans  &kp LEFT_ALT  &trans     &trans    &trans   &trans                    &trans      &trans       &trans     &trans           &trans  &trans
+&trans  &kp RCTRL     &kp RSHFT  &kp LGUI  &kp TAB  &trans                    &kp LEFT    &kp UP       &kp DOWN   &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans        &trans     &trans    &trans   &trans  &trans    &trans  &kp HOME    &kp PG_UP    &kp PG_DN  &kp END          &trans  &trans
+                                 &trans    &trans   &trans  &trans    &trans  &trans      &trans       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
