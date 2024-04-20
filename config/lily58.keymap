@@ -75,7 +75,7 @@
 &trans  &trans        &kp F2     &trans    &kp F4   &trans                    &sys_reset  &bootloader  &kp F8     &trans           &trans  &trans
 &trans  &kp LEFT_ALT  &trans     &trans    &trans   &trans                    &trans      &trans       &trans     &trans           &trans  &trans
 &trans  &kp RCTRL     &kp RSHFT  &kp LGUI  &kp TAB  &trans                    &kp LEFT    &kp UP       &kp DOWN   &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans        &trans     &trans    &trans   &trans  &trans    &trans  &kp HOME    &kp PG_UP    &kp PG_DN  &kp END          &trans  &trans
+&trans  &kp LC(Z)     &trans     &trans    &trans   &trans  &trans    &trans  &kp HOME    &kp PG_UP    &kp PG_DN  &kp END          &trans  &trans
                                  &trans    &trans   &trans  &trans    &trans  &trans      &trans       &trans
             >;
 
